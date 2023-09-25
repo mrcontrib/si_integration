@@ -30,5 +30,5 @@
 |`qty`| Required: Item Qty (float)           |2.00           |
 |`rate`| Required: Item Rate (float)           |900.00           |
 |`amount`| Required: Item Amount `qty * amount`  (float)           |1800.00           |
-|`Tax`| Optional: Item tax percent  (string)           |15%           |
+|`Tax`| Required: Item tax percent  (string)           |15%           |
 
