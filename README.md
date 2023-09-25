@@ -11,7 +11,7 @@
 |`posting_date`| Required: Issue date of the invoice (string)            |2023-09-11           |
 |`posting_time`| Required: Issue time of the invoice (string)            |23:55:0.58           |
 |`customer`| Required: Customer Details (object)           |[Customer Details](#customer-details)           |
-|`items`| Required: Invoice Items (object)            |[Item Details](#item-details)         |
+|`items`| Required: Invoice Items (array)            |[Item Details](#item-details)         |
 
   ## Customer Details
   |Field                |Description                          |Example                         |
