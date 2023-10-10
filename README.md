@@ -12,7 +12,7 @@
 |`posting_time`| Required: Issue time of the invoice (string)            |23:55:0.58           |
 |`customer`| Required: Customer Details (object)           |[Customer Details](#customer-details)           |
 |`items`| Required: Invoice Items (array)            |[Item Details](#item-details)         |
-|`Tax`| Required: Item tax percent  (string)           |15%           |
+|`tax`| Required: Item tax percent  (string)           |15%           |
 
   ## Customer Details
   |Field                |Description                          |Example                         |
