@@ -20,7 +20,9 @@
 |`name`| Required: Customer Name (string)           |Test Company           |
 |`type`| Required: Customer Type : Can be `Company` or `Individual` (string)           |Company           |
 |`tax_id`| Required if `type` is `Company`: Customer Tax ID (string)           |00893838223          |
+|`address`| Customer Address (string)            |Riyadh           |
 |`mobile_no`| Optional: Customer Phone Number (string)            |+9665426233           |
+
 
   ## Item Details
   |Field                |Description                          |Example                         |
