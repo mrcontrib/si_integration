@@ -12,7 +12,7 @@
 |`posting_time`| Required: Issue time of the invoice (string)            |23:55:0.58           |
 |`customer`| Required: Customer Details (object)           |[Customer Details](#customer-details)           |
 |`items`| Required: Invoice Items (array)            |[Item Details](#item-details)         |
-|`tax`| Required: Item tax percent  (string)           |15%           |
+|`tax`| Required: Item tax percent  (string)           |15% or 0%          |
 
   ## Customer Details
   |Field                |Description                          |Example                         |
@@ -20,9 +20,9 @@
 |`name`| Required: Customer Name (string)           |Test Company           |
 |`type`| Required: Customer Type : Can be `Company` or `Individual` (string)           |Company           |
 |`tax_id`| Required if `type` is `Company`: Customer Tax ID (string)           |00893838223          |
-|`address`| Customer Address (string)            |Riyadh           |
+|`address`| Required: Customer Address (string)            |Riyadh           |
 |`mobile_no`| Optional: Customer Phone Number (string)            |+9665426233           |
-|`iqama_no`| Optional: Customer Iqama no (string)            |57463234           |
+|`iqama_no`| Optional: Customer Iqama no or saudi national id (string)            |57463234           |
 
 
 
