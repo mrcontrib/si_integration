@@ -22,6 +22,8 @@
 |`tax_id`| Required if `type` is `Company`: Customer Tax ID (string)           |00893838223          |
 |`address`| Customer Address (string)            |Riyadh           |
 |`mobile_no`| Optional: Customer Phone Number (string)            |+9665426233           |
+|`iqama_no`| Optional: Customer Iqama no (string)            |57463234           |
+
 
 
   ## Item Details
